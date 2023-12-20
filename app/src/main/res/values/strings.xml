@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">ValAgents</string>
+
+    <string name="agents_name">Nama Agent</string>
+    <string name="description">Deskripsi</string>
+    <string name="role">Role</string>
+    <string name="skillname">Nama Kemampuan</string>
+    <string name="skilldesc">Deskripsi Kemampuan</string>
+
+    <string-array name="data_name">
+        <item>Sova</item>
+        <item>Sage</item>
+        <item>Viper</item>
+        <item>Phoenix</item>
+        <item>Omen</item>
+        <item>Killjoy</item>
+        <item>Jett</item>
+        <item>Cypher</item>
+        <item>Chamber</item>
+        <item>Brimstone</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Terlahir dari musim dingin abadi tundra Rusia, Sova melacak, menemukan, dan menghabisi musuh dengan efisiensi dan presisi dahsyat. Busur khusus dan kemampuan pengintaian luar biasanya memastikan bahwa kamu bisa lari, tetapi tak bisa sembunyi.</item>
+        <item>Benteng pertahanan dari Tiongkok, Sage memberikan rasa aman bagi dirinya dan timnya ke mana pun dia pergi. Bisa membangkitkan teman yang gugur dan menahan gempuran sengit, dia menjadi sumber ketenangan dalam medan perang bagai neraka.</item>
+        <item>Seorang Ahli Kimia dari Amerika, Viper, mengerahkan sejumlah perangkat kimia beracun untuk mengendalikan battlefield dan menghalangi pandangan musuh. Jika racun tak membunuh buruannya, permainan pikirannya pasti menghabisi mereka.</item>
+        <item>Berasal dari Britania Raya, kekuatan bintang Phoenix terpampang dalam gaya bertarungnya, mengobarkan medan perang dengan kilat dan api. Saat sendiri maupun dibantu rekannya, dia akan menerjang ke pertarungan sesuka hatinya.</item>
+        <item>Sesosok hantu dalam pikiran, Omen berburu di dalam bayangan. Dia membutakan musuh, berteleportasi di penjuru medan tempur, lalu membiarkan rasa paranoid menghantui selagi musuh berusaha menerka di mana dia akan menyerang berikutnya.</item>
+        <item>Sang genius dari Jerman, Killjoy, dengan mudah mengamankan posisi penting medan perang dengan segudang penemuannya. Jika kerusakan yang dihasilkan tak menghentikan musuh, debuff robot-robotnya akan mengatasinya.</item>
+        <item>Mewakili negara asalnya, Korea Selatan, gaya bertarung Jett yang tangkas dengan banyak pengelakan memungkinkannya mengambil risiko yang tak bisa dilakukan orang lain. Dia mengitari tiap pertempuran, menebas musuh sebelum mereka menyadari apa yang terjadi.</item>
+        <item>Seorang makelar informasi dari Maroko, Cypher adalah jaringan pengintai satu orang yang mengawasi tiap gerakan musuh. Tak ada rahasia yang aman. Tak ada manuver yang tak terlihat. Cypher selalu mengawasi.</item>
+        <item>Berpakaian rapi dan bersenjata lengkap, desainer senjata dari Prancis, Chamber, menghalau penyerang dengan presisi yang mematikan. Dia memanfaatkan persenjataan kustomnya untuk mempertahankan area tertentu, menembak musuh dari jauh, dengan kontingensi yang tersusun untuk tiap rencana.</item>
+        <item>Bergabung dari AS, persenjataan orbital Brimstone memastikan squad-nya selalu di posisi menguntungkan. Kemampuannya untuk melancarkan bantuan secara presisi dan aman menjadikannya seorang komandan tempur tak tertandingi.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/sova</item>
+        <item>@drawable/sage</item>
+        <item>@drawable/viper</item>
+        <item>@drawable/phoenix</item>
+        <item>@drawable/omen</item>
+        <item>@drawable/killjoy</item>
+        <item>@drawable/jett</item>
+        <item>@drawable/cypher</item>
+        <item>@drawable/chamber</item>
+        <item>@drawable/brimstone</item>
+    </integer-array>
+
+    <string-array name="data_role">
+        <item>Initiator</item>
+        <item>Sentinel</item>
+        <item>Controller</item>
+        <item>Duelist</item>
+        <item>Controller</item>
+        <item>Sentinel</item>
+        <item>Duelist</item>
+        <item>Sentinel</item>
+        <item>Sentinel</item>
+        <item>Controller</item>
+    </string-array>
+
+    <integer-array name="data_skill_q">
+        <item>@drawable/sova_q</item>
+        <item>@drawable/sage_q</item>
+        <item>@drawable/viper_q</item>
+        <item>@drawable/phoenix_q</item>
+        <item>@drawable/omen_q</item>
+        <item>@drawable/killjoy_q</item>
+        <item>@drawable/jett_q</item>
+        <item>@drawable/cypher_q</item>
+        <item>@drawable/chamber_q</item>
+        <item>@drawable/brimstone_q</item>
+    </integer-array>
+
+    <integer-array name="data_skill_e">
+        <item>@drawable/sova_e</item>
+        <item>@drawable/sage_e</item>
+        <item>@drawable/viper_e</item>
+        <item>@drawable/phoenix_e</item>
+        <item>@drawable/omen_e</item>
+        <item>@drawable/killjoy_e</item>
+        <item>@drawable/jett_e</item>
+        <item>@drawable/cypher_e</item>
+        <item>@drawable/chamber_e</item>
+        <item>@drawable/brimstone_e</item>
+    </integer-array>
+
+    <integer-array name="data_skill_c">
+        <item>@drawable/sova_c</item>
+        <item>@drawable/sage_c</item>
+        <item>@drawable/viper_c</item>
+        <item>@drawable/phoenix_c</item>
+        <item>@drawable/omen_c</item>
+        <item>@drawable/killjoy_c</item>
+        <item>@drawable/jett_c</item>
+        <item>@drawable/cypher_c</item>
+        <item>@drawable/chamber_c</item>
+        <item>@drawable/brimstone_c</item>
+    </integer-array>
+
+    <integer-array name="data_skill_x">
+        <item>@drawable/sova_x</item>
+        <item>@drawable/sage_x</item>
+        <item>@drawable/viper_x</item>
+        <item>@drawable/phoenix_x</item>
+        <item>@drawable/omen_x</item>
+        <item>@drawable/killjoy_x</item>
+        <item>@drawable/jett_x</item>
+        <item>@drawable/cypher_x</item>
+        <item>@drawable/chamber_x</item>
+        <item>@drawable/brimstone_x</item>
+    </integer-array>
+
+    <string-array name="data_skill_name_q">
+        <item>Q - SHOCK BOLT</item>
+        <item>Q - SLOW ORB</item>
+        <item>Q - POISON CLOUD</item>
+        <item>Q - CURVEBALL</item>
+        <item>Q - PARANOIA</item>
+        <item>Q - ALARMBOT</item>
+        <item>Q - UPDRAFT</item>
+        <item>Q - CYBER CAGE</item>
+        <item>Q - HEADHUNTER</item>
+        <item>Q - INCENDIARY</item>
+    </string-array>
+
+    <string-array name="data_skill_name_e">
+        <item>E - RECON BOLT</item>
+        <item>E - HEALING ORB</item>
+        <item>E - TOXIC SCREEN</item>
+        <item>E - HOT HANDS</item>
+        <item>E - DARK COVER</item>
+        <item>E - TURRET</item>
+        <item>E - TAILWIND</item>
+        <item>E - SPYCAM</item>
+        <item>E - RENDEZVOUS</item>
+        <item>E - SKY SMOKE</item>
+    </string-array>
+
+    <string-array name="data_skill_name_c">
+        <item>C - OWL DRONE</item>
+        <item>C - BARRIER ORB</item>
+        <item>C - SNAKE BITE</item>
+        <item>C - BLAZE</item>
+        <item>C - SHROUDED STEP</item>
+        <item>C - NANOSWARM</item>
+        <item>C - CLOUDBURST</item>
+        <item>C - TRAPWIRE</item>
+        <item>C - TRADEMARK</item>
+        <item>C - STIM BEACON</item>
+    </string-array>
+
+    <string-array name="data_skill_name_x">
+        <item>X - HUNTER’S FURY</item>
+        <item>X - RESURRECTION</item>
+        <item>X - VIPER’S PIT</item>
+        <item>X - RUN IT BACK</item>
+        <item>X - FROM THE SHADOWS</item>
+        <item>X - LOCKDOWN</item>
+        <item>X - BLADE STORM</item>
+        <item>X - NEURAL THEFT</item>
+        <item>X - TOUR DE FORCE</item>
+        <item>X - ORBITAL STRIKE</item>
+    </string-array>
+
+    <string-array name="data_skill_desc_q">
+        <item>EQUIP a bow with a shock bolt. FIRE to send the explosive bolt forward, detonating upon collision and damaging players nearby. HOLD FIRE to extend the range of the projectile. ALT FIRE to add up to two bounces to this arrow.</item>
+        <item>EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing, creating a lingering field that slows players caught inside of it.</item>
+        <item>EQUIP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round. RE-USE the ability to create a toxic gas cloud at the cost of fuel. This ability can be RE-USED more than once and can be picked up to be REDEPLOYED.</item>
+        <item>EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve the flare orb to the left, detonating and blinding any player who sees the orb. ALTERNATE FIRE to curve the flare orb to the right.</item>
+        <item>INSTANTLY fire a shadow projectile forward, briefly reducing the vision range of all players it touches. This projectile can pass straight through walls.</item>
+        <item>EQUIP a covert Alarmbot. FIRE to deploy a bot that hunts down enemies that get in range. After reaching its target, the bot explodes, applying Vulernable. HOLD EQUIP to recall a deployed bot.</item>
+        <item>INSTANTLY propel Jett high into the air.</item>
+        <item>INSTANTLY toss the cyber cage in front of Cypher. Activate to create a zone that blocks vision and slows enemies who pass through it.</item>
+        <item>ACTIVATE to equip a heavy pistol. ALT FIRE with the pistol equipped to aim down sights.</item>
+        <item>EQUIP an incendiary grenade launcher. FIRE to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone.</item>
+    </string-array>
+
+    <string-array name="data_skill_desc_e">
+        <item>EQUIP a bow with recon bolt. FIRE to send the recon bolt forward, activating upon collision and Revealing the location of nearby enemies caught in the line of sight of the bolt. Enemies can destroy this bolt. HOLD FIRE to extend the range of the projectile. ALT FIRE to add up to two bounces to this arrow.</item>
+        <item>EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a heal-over-time on them. ALT FIRE while Sage is damaged to activate a self heal-over-time.</item>
+        <item>EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters. RE-USE the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be RE-USED more than once.</item>
+        <item>EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies.</item>
+        <item>EQUIP a shadow orb, entering a phased world to place and target the orbs. PRESS the ability key to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision. HOLD FIRE while targeting to move the marker further away. HOLD ALT FIRE while targeting to move the marker closer. PRESS RELOAD to toggle normal targeting view.</item>
+        <item>EQUIP a Turret. FIRE to deploy a turret that fires at enemies in a 180 degree cone. HOLD EQUIP to recall the deployed turret.</item>
+        <item>ACTIVATE to prepare a gust of wind for a limited time. RE-USE the wind to propel Jett in the direction she is moving. If Jett is standing still, she propels forward. Tailwind charge resets every two kills.</item>
+        <item>EQUIP a spycam. FIRE to place the spycam at the targeted location. RE-USE this ability to take control of the camera\'s view. While in control of the camera, FIRE to shoot a marking dart. This dart will Reveal the location of any player struck by the dart. This ability can be picked up to be REDEPLOYED.</item>
+        <item>EQUIP a teleport anchor. FIRE to place it on the ground. While on the ground and in range of the anchor, REACTIVATE to quickly teleport to the anchor. The anchor can be picked up to be REDEPLOYED.</item>
+        <item>EQUIP a tactical map. FIRE to set locations where Brimstone\'s smoke clouds will land. ALT FIRE to confirm, launching long-lasting smoke clouds that block vision in the selected area.</item>
+    </string-array>
+
+    <string-array name="data_skill_desc_c">
+        <item>EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will Reveal the location of any player struck by the dart. Enemies can destroy the Owl Drone.</item>
+        <item>EQUIP a barrier orb. FIRE places a solid wall. ALT FIRE rotates the targeter.</item>
+        <item>EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and slows enemies.</item>
+        <item>EQUIP a flame wall. FIRE to create a line of flame that moves forward, creating a wall of fire that blocks vision and damages players passing through it. HOLD FIRE to bend the wall in the direction of your crosshair.</item>
+        <item>EQUIP a shadow walk ability and see its range indicator. FIRE to begin a brief channel, then teleport to the marked location.</item>
+        <item>EQUIP a Nanoswarm grenade. FIRE to throw the grenade. Upon landing, the Nanoswarm goes covert. ACTIVATE the Nanoswarm to deploy a damaging swarm of nanobots.</item>
+        <item>INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surface. HOLD the ability key to curve the smoke in the direction of your crosshair.</item>
+        <item>EQUIP a trapwire. FIRE to place a destructible and covert tripwire at the targeted location creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, revealed, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be REDEPLOYED.</item>
+        <item>EQUIP a trap that scans for enemies. FIRE to place it on the ground. When a visible enemy comes in range, the trap counts down and then destabilizes the terrain around them, creating a lingering field that Slows players caught inside of it. The trap can be picked up to be REDEPLOYED.</item>
+        <item>EQUIP a stim beacon. FIRE to toss the stim beacon in front of Brimstone. Upon landing, the stim beacon will create a field that grants players RapidFire.</item>
+    </string-array>
+
+    <string-array name="data_skill_desc_x">
+        <item>EQUIP a bow with three long-range wall-piercing energy blasts. FIRE to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active.</item>
+        <item>EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health.</item>
+        <item>EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper, creating a large cloud that reduces the vision range and maximum health of players inside of it.</item>
+        <item>INSTANTLY place a marker at Phoenix’s location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health.</item>
+        <item>EQUIP a tactical map. FIRE to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport.</item>
+        <item>EQUIP the Lockdown device. FIRE to deploy the device. After a long windup, the device Detains all enemies caught in the radius. The device can be destroyed by enemies.</item>
+        <item>EQUIP a set of highly accurate throwing knives. FIRE to throw a single knife and recharge knives on a kill. ALT FIRE to throw all remaining daggers but does not recharge on a kill.</item>
+        <item>INSTANTLY use on a dead enemy player in your crosshairs to reveal the location of all living enemy players.</item>
+        <item>ACTIVATE to summon a powerful, custom sniper rifle that will kill an enemy with any direct hit to the upper body. ALT FIRE to aim down sights. Killing an enemy creates a lingering field that Slows players caught inside of it.</item>
+        <item>EQUIP a tactical map. FIRE to launch a lingering orbital strike laser at the selected location, dealing high damage-over-time to players caught in the selected area.</item>
+    </string-array>
+</resources>
